@@ -6,9 +6,12 @@ module.exports = {
         'top': '0 20px 45px -5px rgba(0, 0, 0, 0.3)',
         'cards': '0 10px 20px -5px rgba(0, 0, 0, 0.3)',
       },
+      colors: {
+        'light-fus': '#e78ff1',
+      },
       animation: {
         slideUp: "slideUp 850ms forwards ease-out",
-        slideLeft: "slideLeft 1000ms forwards ease-in-out",
+        slideLeft: "slideLeft 900ms forwards ease-in-out",
       },
       keyframes: {
         slideUp: {
@@ -23,7 +26,7 @@ module.exports = {
         },slideLeft: {
           '0%': {
             opacity: '0',
-            transform: 'translateX(20%);'
+            transform: 'translateX(10%);'
           },
           '100%': {
             opacity: '1',

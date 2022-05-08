@@ -12,10 +12,10 @@ function App() {
             <header className = "flex flex-row justify-center items-center w-full">
               <img className = "w-1/2 animate-slideLeft" src = {logo} alt = "teamLogo" />
               <div className = "flex flex-col">
-                <h1 className = "text-6xl text-slate-500 font-bold animate-slideUp select-none my-4">Ctrl Alt Elite</h1>
+                <h1 className = "text-6xl text-fuchsia-800 text-opacity-70 font-bold animate-slideUp select-none my-4">Ctrl Alt Elite</h1>
                 <div className="flex flex-wrap">
                   {team.map((member, index) => (
-                    <NavLink className = "bg-slate-600 p-2 rounded-lg w-1/3 text-center m-2 py-3 px-0 animate-slideUp" to = {`/${member.id}`}>
+                    <NavLink className = "bg-light-fus p-2 shadow-lg shadow-fuchsia-300 rounded-lg w-1/3 text-center m-3 py-3 px-0 hover:animate-pulse text-slate-200 font-semibold" to = {`/${member.id}`}>
                       {member.name}
                     </NavLink>
                   ))}
