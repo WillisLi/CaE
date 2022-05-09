@@ -7,7 +7,7 @@ module.exports = {
         'cards': '0 10px 20px -5px rgba(0, 0, 0, 0.3)',
       },
       colors: {
-        'light-fus': '#e78ff1',
+        'light-main': '#0978b3',
       },
       animation: {
         slideUp: "slideUp 850ms forwards ease-out",
@@ -17,7 +17,7 @@ module.exports = {
         slideUp: {
           '0%': {
             opacity: '0',
-            transform: 'translateY(100%);'
+            transform: 'translateY(90%);'
           },
           '100%': {
             opacity: '1',
