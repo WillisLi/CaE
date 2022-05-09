@@ -2,7 +2,7 @@ import "./index.css";
 import { Routes, Route, NavLink } from "react-router-dom";
 import team from "./data/team.json";
 import logo from "./assets/logo.png";
-import MemberCard from "./components/MemberCard";
+import MemberCard from "./Components/MemberCard";
 
 function App() {
   return (
