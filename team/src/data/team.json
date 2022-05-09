@@ -7,27 +7,27 @@
     },
     {
         "id": 2,
-        "name": "Sarah Corbett",
-        "description": "",
-        "image": []
-    },
-    {
-        "id": 3,
         "name": "Daniel Kish",
         "description": "",
         "image": []
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Jonathin Makori",
         "description": "",
         "image": []
     },
     {
+        "id": 4,
+        "name": "Sarah Corbett",
+        "description": "I love to play board games. My current favorite is Hive, a strategy-based game for two players. I love puns and dad jokes. I even have a daily calendar with a new dad joke every day!",
+        "image": ["https://cf.geekdo-images.com/Lr-mR9i6SD2-0Q9odND5uQ__imagepage/img/y3KUINeczKqfpYmkwVkRQzWVkvg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic114606.jpg", "https://cdn.bhdw.net/im/semicolon-it-can-ruin-everything-wallpaper-35264_w635.jpg"]
+    },
+    {
         "id": 5,
         "name": "Willis Li",
-        "description": "",
-        "image": []
+        "description": "I love drinking sweet teas, music, n soccer",
+        "image": ["https://www.thespruceeats.com/thmb/qp2D4QZOMUzI3z4EEy77anydbO0=/3870x2177/smart/filters:no_upscale()/southern-style-sweet-fruit-tea-3051552-hero-01-0db8e820485842b29702ac983c3fa89a.jpg, https://i.ytimg.com/vi/5qap5aO4i9A/maxresdefault.jpg", "https://news.virginia.edu/sites/default/files/Header_Soccer.jpg"]
     },
     {
         "id": 6,

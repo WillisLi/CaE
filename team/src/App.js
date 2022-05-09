@@ -6,7 +6,7 @@ import MemberCard from "./components/MemberCard";
 
 function App() {
   return (
-    <div className = "min-h-screen bg-slate-100 flex items-center justify-center">
+    <div className = "bg-webBG min-h-screen bg-slate-100 flex items-center justify-center">
       <Routes>
         <Route exact path = "/" element = {
             <header className = "flex flex-row justify-center items-center w-full">
@@ -15,7 +15,7 @@ function App() {
                 <h1 className = "text-6xl text-sky-800 text-opacity-70 font-bold animate-slideUp select-none my-8">Ctrl Alt Elite</h1>
                 <div className="flex flex-wrap">
                   {team.map((member, index) => (
-                    <NavLink className = "bg-light-main bg-opacity-80 p-2 shadow-lg shadow-sky-800 rounded-lg w-1/3 text-center m-3 py-3 px-0 hover:animate-pulse text-slate-200 font-semibold" to = {`/${member.id}`}>
+                    <NavLink className = "bg-light-main bg-opacity-75 p-2 shadow-lg shadow-sky-800 rounded-lg w-1/3 text-center m-3 py-3 px-0 hover:animate-pulse text-slate-200 font-semibold" to = {`/${member.id}`}>
                       {member.name}
                     </NavLink>
                   ))}
